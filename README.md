@@ -1,6 +1,6 @@
 # TwitterScraper
 
-## Este código es una aplicación web escrita en Python utilizando la librería Flask y snscrape. Esta aplicación tiene la capacidad de recopilar tweets a través de técnicas de scraping(Scraping es un proceso de extracción de datos en línea), proporcionando una forma eficiente y sencilla de acceder a la información publicada en Twitter. 
+#### Este código es una aplicación web escrita en Python utilizando la librería Flask y snscrape. Esta aplicación tiene la capacidad de recopilar tweets a través de técnicas de scraping(Scraping es un proceso de extracción de datos en línea), proporcionando una forma eficiente y sencilla de acceder a la información publicada en Twitter. 
 
 ### La aplicación tiene 2 rutas principales:
 
