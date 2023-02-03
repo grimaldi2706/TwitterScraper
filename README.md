@@ -1,6 +1,6 @@
 # TwitterScraper
 
-### Este código es una aplicación web escrita en Python utilizando la librería Flask y snscrape. Esta aplicación tiene la capacidad de recopilar tweets a través de técnicas de scraping(Scraping es un proceso de extracción de datos en línea), proporcionando una forma eficiente y sencilla de acceder a la información publicada en Twitter. 
+## Este código es una aplicación web escrita en Python utilizando la librería Flask y snscrape. Esta aplicación tiene la capacidad de recopilar tweets a través de técnicas de scraping(Scraping es un proceso de extracción de datos en línea), proporcionando una forma eficiente y sencilla de acceder a la información publicada en Twitter. 
 
 ### La aplicación tiene 2 rutas principales:
 
@@ -13,3 +13,5 @@ La función "get_tweets" toma como entrada una consulta y un límite de cantidad
 
 Esta biblioteca se integra con la librería Pandas, lo que permite almacenar los datos extraídos en un DataFrame de Pandas y con ello manipularlos más fácilmente.
 
+## Requirements
+snscrape requiere Python 3.8 or inferior.
