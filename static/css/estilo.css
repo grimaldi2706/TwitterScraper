@@ -1,0 +1,83 @@
+/* https://usbrandcolors.com/twitter-colors/ */
+body {
+  background-color: white;
+  font-family: Arial, sans-serif; 
+}
+
+h1 {
+  color: #1DA1F2
+}
+
+label {
+  font-size: 1.5rem;
+  color: #657786;
+}
+
+.text-input {
+    width: 450px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #F5F8FA;
+    color: #14171A;
+}
+.text-input2 {
+    width: 60px;
+    height: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    background-color: #F5F8FA;
+    color: #14171A;
+}
+
+.button_enviar {
+    height: 40px;
+    padding: 0 20px;
+    background-color: #1DA1F2;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.button_enviar:hover {
+  background-color: #E1E8ED;
+}
+
+table {
+    border-collapse: collapse;
+    font-size: 12px;
+}
+
+th, td {
+    width: 20px;
+    border: 1px solid #AAB8C2;
+    padding: 1px;
+    text-align: left;
+    
+}
+
+th {
+    background-color: #1DA1F2;
+    color: #F5F8FA;
+    font-size: 16px;
+}
+
+tr:hover {
+    background-color: #E1E8ED;
+}
+
+.contenedor{
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+

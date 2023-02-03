@@ -1,0 +1,10 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/estilo.css') }}">
+  </head>
+  <body>
+    {{ df_u | safe }}
+    <br>   
+    {{ tabla | safe}}
+  </body>
+</html>

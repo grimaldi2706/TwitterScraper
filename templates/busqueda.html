@@ -1,0 +1,21 @@
+{% extends './layout/layout.html' %}
+{% block body %}
+
+<form class="search-form" method="POST" onsubmit="return validateForm()">
+  <label for="busqueda">Busqueda:</label>
+  <input type="search" id="busqueda" name="busqueda" placeholder="Ingresa tu busqueda aquí">
+  <br>
+  <input type="submit" value="Enviar">
+</form>
+
+<script>
+  function validateForm() {
+    var x = document.forms["search-form"]["busqueda"].value;
+    if (x == "") {
+      alert("Debe ingresar una busqueda");
+      return false;
+    }
+  }
+</script>
+
+{% endblock %}
